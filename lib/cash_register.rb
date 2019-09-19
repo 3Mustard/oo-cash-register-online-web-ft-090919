@@ -12,7 +12,7 @@ class CashRegister
   
   def apply_discount(discount)
     if discount > 0 
-      @discount = discount()
+      @discount = discount
       "After the discount, the total comes to $800."
     else 
       "There is no discount to apply."
